@@ -44,6 +44,7 @@ impl ClockId {
         target_os = "ios",
         target_os = "tvos",
         target_os = "watchos",
+        target_os = "visionos",
         target_os = "redox",
         target_os = "hermit"
     )))]
@@ -206,6 +207,7 @@ pub fn clock_gettime(clock_id: ClockId) -> Result<TimeSpec> {
     target_os = "ios",
     target_os = "tvos",
     target_os = "watchos",
+    target_os = "visionos",
     target_os = "redox",
     target_os = "hermit"
 )))]
